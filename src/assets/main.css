@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Host Grotesk', 'sans-serif';
+}
+
+@layer base {
+  html,
+  body {
+    font-family: var(--font-display);
+  }
+}
